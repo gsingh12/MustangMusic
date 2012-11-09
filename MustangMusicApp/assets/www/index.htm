@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+
+	<title>Band App - Home</title>
+    <link rel="stylesheet" type="text/css" href="themes/home.css" />
+    <link rel="stylesheet" type="text/css" href="themes/flexslider.css" />
+	
+	<!-- <script type="text/javascript" charset="utf-8" src="js/phonegap-1.5.0.js"></script> -->
+    <!-- <script type="text/javascript" src="js/jquery-1.7.2.js"></script> -->
+    <script type="text/javascript" src="./zRSSFeed/jquery.min.js"></script>
+	<script type="text/javascript" src="./zRSSFeed/jquery.flexslider-min.js"></script>
+	
+	<!-- Hook up the FlexSlider -->
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('.flexslider').flexslider({
+				  animation: "slide",
+				  slideshowSpeed: 4000,
+				  animationSpeed: 400,
+				  controlsContainer: ".flexslider-container"
+			  });
+		});
+	</script>
+	
+	<script>
+      function onLoad(img) {
+        img.style.display = "block";
+        img.parentNode.getElementsByClassName("defaultImage")[0].style.display = "none";
+      }
+      
+      function onError(img) {
+      }
+      
+    </script>
+</head>
+
+<body style="width: $(window).width();" align="center">
+
+    <!--  This class of rootdiv causes webview2 on the page to disappear
+    <div id="homepage" class="rootdiv" >
+    -->
+	<!-- TBR <center><h3 style="color: #4455ee;">SCHOOL BAND APPLICATION </h3></center> -->
+	
+    <!-- background-image: url('images/fixes_bkground.png'); -->
+    <!-- 
+	<table align="center"
+	   cellpadding="5px"
+	   style="border: 1px solid #222263; background: #406627; width: 100%" >
+	   <tr align="center" style="color: #ffffff;">
+		  <td height="25px">ABC champs</td>
+		  <td height="25px" style="font-size: 8px;">24th May <hr noshade="noshade" style="color: #222263;"> 5PM</td>
+		  <td height="25px">XYZ rockers</td>
+	   </tr>
+	</table>
+	-->
+	
+	<!-- Carousal Slideshow -->
+	<div id="list" >
+        <!-- <div class="prev"><img src="images/prev.jpg" alt="prev" /></div>  -->
+ 
+        
+        <!-- <div class="flexslider" style="background: #ccf29b; font-weight:bold"> -->
+        <div class="flexslider" style="color: #ffffff; background: #000000; " align="center">
+        <ul class="slides">
+            <li>
+                <img src="images/Marching.jpg" alt="Mustang Marching Band" align="center" /></a>
+                <p class="flex-caption">Homestead Marching Band</p>
+            </li>
+            <li>
+                <img src="images/Tubas.jpg" alt="Mustang Marching - Tubas" align="center" />
+                <p class="flex-caption">Homestead Marching - Tubas</p>
+            </li>
+            <li>
+                <img src="images/Concert.jpg" alt="Mustang Concert Band"  align="center" /></a>
+                <p class="flex-caption">Homestead Concert Band</p>
+            </li>
+            <li>
+                <img src="images/Macys.jpg" alt="Macys Thanksgiving Parade 2011" align="center" /></a>
+                <p class="flex-caption">Macy's Thanksgiving Parade 2011</p>
+            </li>
+            <li>
+                <img src="images/Carnegie.jpg" alt="Carnegie Hall 2011" align="center" /></a>
+                <p class="flex-caption">Carnegie Hall 2011</p>
+            </li>
+        </ul>
+	    </div>
+ 
+    <!-- <div class="next"><img src="images/next.jpg" alt="next" /></div>  -->
+    </div>
+
+<!-- 
+    <div style="width: 90%; padding: 5px;">
+        <!--  <object type="text/html" data="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;wkst=1&amp;bgcolor=%23009900&amp;src=eieiglnt66gtoi9aspvj38dlv4%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " frameborder="0" scrolling="no"></object> --
+        <object type="text/html" data="zRSSFeedMobile.htm" style=" border-width:0 " frameborder="0" scrolling="yes"></object>
+        <!-- 
+	   <p>
+		Some extra news feed contents here...<br>
+		And few more contents<br>
+		and few news<br>
+		and some more...<br>
+	   </p>
+	    --
+    </div>
+     -->
+
+    <!-- 
+    <div align="center">
+        <table align="center"
+        cellpadding="5px"
+        style="border: 1px solid #222263; background: #406627; width: 100%" >
+            <tr align="center" style="color: #ffffff;">
+                <td height="25px">abc@example.com</td>
+                <td height="25px">408-123-4567</td>
+            </tr>
+        </table>
+    </div>
+     -->
+     
+     <!-- 
+    <div align="center">
+        <table align="center"
+        cellpadding="5px"
+        style="font-weight:plain; font-size: 9px; border: 1px solid #222263; background: #406627; width: 100%" >
+            <tr align="center" style="color: #ffffff;">
+                <td class="left" nowrap="nowrap">
+                    Mustang Music - Homestead High School
+                    <br>
+                    21370 Homestead Road, Cupertino, CA 95014
+                    <br>
+                    (408) 522-2500 Phone | (408) 738-8631 Fax
+                </td>
+            </tr>
+        </table>
+    </div>
+    -->
+</body>
+</html>

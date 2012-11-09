@@ -1,0 +1,327 @@
+
+* HHSMB on Mobile
+  - Event calendar (Google calendar)
+    week/month/list
+    Details
+    Copy to my calendar
+
+  - HHSMS Blast
+      
+  - Photos/Videos
+    Links to various sites: flicker, picasa, smugmug (How to get these??)
+
+  - Social group (FB or Twitter)
+
+* Resources:
+  Vicki Feltman
+  Carl Gutekunst (Band parent of Daniel, Senior, Baritone in Marching Band)
+    Load events schedules from Angela and Vicki.
+
+
+* Design:
+  HHSMS Pride!   (Logo, Address, Call->, Email->)
+  Calendar
+  Blast
+  Photo
+  More ...      (Or this could be sliding menu on home page, Like Servite High School)
+       News/Social
+
+*
+
+Google Sites should automatically support RSS feeds.
+
+The public URL for our new site is:
+http://www.homestead-music.org/
+
+(It is equivalent to https://sites.google.com/site/hhsmusicus/home)
+
+According to:
+http://support.google.com/sites/bin/answer.py?hl=en&answer=166735&topic=1046079&ctx=topic
+The RSS feed URL should just be http://www.homestead-music.org/posts.xml
+
+Does that work for you?
+
+We are now posting band blasts to this page but are still in the process of moving and re-organizing content from the old site.
+
+* 
+https://sites.google.com/site/hhsmusicus/
+
+<ul><li><div><a href="https://homestead.schoolloop.com/20120918" rel="nofollow">HHSMB Blast - September 18</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120912" rel="nofollow">HHSMB Blast - September 12</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120905" rel="nofollow">HHSMB Blast - September 5</a></div></li><li><div><a href="https://homestead.schoolloop.com/201200828" rel="nofollow">HHSMB Blast - August 28</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120821" rel="nofollow">HHSMB Blast - August 21</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120815" rel="nofollow">HHSMB Blast - August 15</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120808" rel="nofollow">Addendum to this week's HHSMB Blast - August 8</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120807" rel="nofollow">HHSMB Blast - August 8</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120801" rel="nofollow">HHSMB Blast - August 1</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120725" rel="nofollow">HHSMB Blast - July 25</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120717" rel="nofollow">HHSMB Blast - July 17</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120713" rel="nofollow">HHSMB Blast - July 13</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120706" rel="nofollow">HHSMB Mini-Blast - July 6</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120703" rel="nofollow">HHSMB Blast - July 3</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120627" rel="nofollow">HHSMB Blast - June 27</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120620" rel="nofollow">HHSMB Blast - June 20</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120613" rel="nofollow">HHSMB Blast - June 13</a></div></li><li><div><a href="https://homestead.schoolloop.com/120606" rel="nofollow">HHSMB Blast - June 6</a></div></li><li><div><a href="https://homestead.schoolloop.com/120602" rel="nofollow">HHSMB Blast - June 2</a></div></li><li><div><a href="https://homestead.schoolloop.com/120530" rel="nofollow">HHSMB Blast - May 30</a></div></li><li><div><a href="https://homestead.schoolloop.com/120523" rel="nofollow">HHSMB Blast - May 23</a></div></li><li><div><a href="https://homestead.schoolloop.com/blast120510" rel="nofollow">HHSMB Blast Addition - May 10</a></div></li><li><div><a href="http://homestead.schoolloop.com/blast120508" rel="nofollow">HHSMB Blast - May 8</a></div></li><li><div><a href="http://homestead.schoolloop.com/blast120502" rel="nofollow">HHSMB Blast - May 2</a></div></li><li><div><a href="http://homestead.schoolloop.com/blast120411" rel="nofollow">HHSMB Blast - April 11</a></div></li><li><div><a href="http://homestead.schoolloop.com/file/1238131168549/1249846149106/5661927356133150230.pdf" rel="nofollow">December 2011 Hornblower</a></div></li><li><a href="http://homestead.schoolloop.com/file/1238131168549/1249846149106/1084755186147412909.pdf" rel="nofollow">2011 Field Show Shirt Order Form</a></li><li><font><a href="http://homestead.schoolloop.com/file/1238131168549/1249846149106/6106110045763697139.pdf" rel="nofollow">FAQ1</a> , <a href="http://homestead.schoolloop.com/file/1238131168549/1249846149106/7759940089836611048.pdf" rel="nofollow">FAQ2</a> , and <a href="http://homestead.schoolloop.com/file/1238131168549/1249846149106/215919156089479355.pdf" rel="nofollow">FAQ3</a>  </font>for the Macy's Parade Trip in November, 2011</li><li><a href="http://homestead.schoolloop.com/mbmacys" rel="nofollow"><b>Online Donation page</b></a> available to <b>support the Homestead Music Program</b></li><li><b><a href="http://hhsmbvolunteer.comule.com" rel="nofollow">Online Volunteer site </a></b>for HHS Music Boosters. <b><a href="http://bit.ly/M28Ymz" rel="nofollow">2012-2013 Signups. </a></b></li><li><a href="http://homestead.schoolloop.com/blast100524" rel="nofollow"><b>Volunteer for Santa Clara Vanguard Bingo to benefit HHS Marching Band</b></a></li><li><a href="http://groups.yahoo.com/group/HHSMB_Alumni/join" rel="nofollow">Click to join the HHSMB_Alumni email group</a></li></ul>
+
+<div style="display:block;text-align:left">
+     <font size="3">
+     <a href="http://www.homestead-music.org/home/foodtruck1.gif?attredirects=0" imageanchor="1">
+     <img border="0" src="http://www.homestead-music.org/_/rsrc/1348521119282/home/foodtruck1.gif" />
+     </a>
+     </font>
+     </div><p>
+     <span style="color:rgb(39,78,19)"><u><span style="color:rgb(56,118,29)"><font size="5">NEWS</font></span><img src="http://www.homestead-music.org/_/rsrc/1349677601889/home" vspace="5" /></u></span></p><p>
+     <font size="2">Additional information on <a href="https://homestead.schoolloop.com/20120920">Bands of America trip Oct. 26-29!!!</a></font>
+     </p>
+     <hr />
+     <ul>
+       <li><div><a href="https://homestead.schoolloop.com/20120918">HHSMB Blast - September 18</a></div></li>
+       <li><div><a href="https://homestead.schoolloop.com/20120912">HHSMB Blast - September 12</a></div></li>
+       <li><div><a href="https://homestead.schoolloop.com/20120905">HHSMB Blast - September 5</a></div></li>
+       		   <li><div><a href="https://homestead.schoolloop.com/201200828">HHSMB Blast - August 28</a></div></li>
+       <li><div><a href="https://homestead.schoolloop.com/20120821">HHSMB Blast - August 21</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120815">HHSMB Blast - August 15</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120808">Addendum to this week's HHSMB Blast - August 8</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120807">HHSMB Blast - August 8</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120801">HHSMB Blast - August 1</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120725">HHSMB Blast - July 25</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120717">HHSMB Blast - July 17</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120713">HHSMB Blast - July 13</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120706">HHSMB Mini-Blast - July 6</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120703">HHSMB Blast - July 3</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120627">HHSMB Blast - June 27</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120620">HHSMB Blast - June 20</a></div></li><li><div><a href="https://homestead.schoolloop.com/20120613">HHSMB Blast - June 13</a></div></li><li><div><a href="https://homestead.schoolloop.com/120606">HHSMB Blast - June 6</a></div></li><li><div><a href="https://homestead.schoolloop.com/120602">HHSMB Blast - June 2</a></div></li><li><div><a href="https://homestead.schoolloop.com/120530">HHSMB Blast - May 30</a></div></li><li><div><a href="https://homestead.schoolloop.com/120523">HHSMB Blast - May 23</a></div></li><li><div><a href="https://homestead.schoolloop.com/blast120510">HHSMB Blast Addition - May 10</a></div></li><li><div><a href="http://homestead.schoolloop.com/blast120508">HHSMB Blast - May 8</a></div></li><li><div><a href="http://homestead.schoolloop.com/blast120502">HHSMB Blast - May 2</a></div></li><li><div><a href="http://homestead.schoolloop.com/blast120411">HHSMB Blast - April 11</a></div></li><li><div><a href="http://homestead.schoolloop.com/file/1238131168549/1249846149106/5661927356133150230.pdf">December 2011 Hornblower</a></div></li><li><a href="http://homestead.schoolloop.com/file/1238131168549/1249846149106/1084755186147412909.pdf">2011 Field Show Shirt Order Form</a></li><li><font><a href="http://homestead.schoolloop.com/file/1238131168549/1249846149106/6106110045763697139.pdf">FAQ1</a> , <a href="http://homestead.schoolloop.com/file/1238131168549/1249846149106/7759940089836611048.pdf">FAQ2</a> , and <a href="http://homestead.schoolloop.com/file/1238131168549/1249846149106/215919156089479355.pdf">FAQ3</a>  </font>for the Macy's Parade Trip in November, 2011</li><li><a href="http://homestead.schoolloop.com/mbmacys"><b>Online Donation page</b></a> available to <b>support the Homestead Music Program</b></li><li><b><a href="http://hhsmbvolunteer.comule.com">Online Volunteer site </a></b>for HHS Music Boosters. <b><a href="http://bit.ly/M28Ymz">2012-2013 Signups. </a></b></li><li><a href="http://homestead.schoolloop.com/blast100524"><b>Volunteer for Santa Clara Vanguard Bingo to benefit HHS Marching Band</b></a></li><li><a href="http://groups.yahoo.com/group/HHSMB_Alumni/join">Click to join the HHSMB_Alumni email group</a></li></ul><p><a href="http://homestead.schoolloop.com/mbnews">More news...</a></p><p><a href="http://homestead.schoolloop.com/mbnewsarchive">News Archive</a></p><p><a href="https://sites.google.com/site/homesteadvideo/" target="_blank"><span style="color:rgb(39,78,19)"><u><span style="color:rgb(56,118,29)"><font size="5">PHOTOS and VIDEOS</font><br /></span></u></span></a></p><p><a href="https://sites.google.com/site/homesteadvideo/" target="_blank">Homestead Video/Photo Site</a></p></div></td></tr></tbody></table>
+</div> 
+
+
+----
+https://sites.google.com/site/homesteadvideo/photos/posts.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:gAcl="http://schemas.google.com/acl/2007" xmlns:sites="http://schemas.google.com/sites/2008" xmlns:gs="http://schemas.google.com/spreadsheets/2006" xmlns:dc="http://purl.org/dc/terms" xmlns:batch="http://schemas.google.com/gdata/batch" xmlns:gd="http://schemas.google.com/g/2005" xmlns:thr="http://purl.org/syndication/thread/1.0"><id>https://sites.google.com/feeds/content/site/homesteadvideo</id><updated>2012-10-14T23:30:45.268Z</updated><title>Posts of Photos</title><link rel="http://schemas.google.com/g/2005#feed" type="application/atom+xml" href="https://sites.google.com/feeds/content/site/homesteadvideo" />
+
+    <link rel="http://schemas.google.com/g/2005#post" type="application/atom+xml" href="https://sites.google.com/feeds/content/site/homesteadvideo" />
+    <link rel="http://schemas.google.com/g/2005#batch" type="application/atom+xml" href="https://sites.google.com/feeds/content/site/homesteadvideo/batch" />
+    <link rel="self" type="application/atom+xml" href="https://sites.google.com/feeds/content/site/homesteadvideo?parent=4611701329062937665&amp;kind=announcement" />
+<generator version="1" uri="http://sites.google.com">Google Sites</generator><openSearch:startIndex>1</openSearch:startIndex></feed>
+
+Feed url found to be: https://sites.google.com/feeds/content/site/homesteadvideo
+
+----
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/">
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var a=window,b="tick",c="start";var d=function(g){this.t={};this.tick=function(g,l,f){f=void 0!=f?f:(new Date).getTime();this.t[g]=[f,l]};this[b](c,null,g)},e=new d;a.jstiming={Timer:d,load:e};if(a.performance&&a.performance.timing){var h=a.performance.timing,i=a.jstiming.load,j=h.navigationStart,k=h.responseStart;0<j&&k>=j&&(i[b]("_wtsrt",void 0,j),i[b]("wtsrt_","_wtsrt",k),i[b]("tbsd_","wtsrt_"))}
+try{var m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),i&&0<j&&(i[b]("_tbnd",void 0,a.chrome.csi().startE),i[b]("tbnd_","_tbnd",j)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,i&&0<j&&(i[b]("_tbnd",void 0,a.external.startE),i[b]("tbnd_","_tbnd",j)));m&&(a.jstiming.pt=m)}catch(n){}; })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/09d9ad/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var d=window,e="length",h="",i="__duration__",j="function";function k(c){return document.getElementById(c)}d.byId=k;function l(c){return c.replace(/^\s+|\s+$/g,h)}d.trim=l;var m=[],n=0;d.JOT_addListener=function(c,a,b){var f=new String(n++),c={eventName:c,handler:a,compId:b,key:f};m.push(c);return f};d.JOT_removeListenerByKey=function(c){for(var a=0;a<m[e];a++)if(m[a].key==c){m.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var a=0;a<m[e];a++)m[a].eventName==c&&m.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded){a=m[e];for(b=0;b<a&&b<m[e];b++){var g=m[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof g.handler==j?g.handler:d[g.handler])&&g(f))}}else d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return a?d.JOT_siteRelTimeStrs[f].replace(i,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(i,Math.floor(b))}; })()
+</script>
+<script>
+
+
+var webspace = {"scottyUrl":"/_/upload","isConsumer":true,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED","analyticsAccountId":"","baseUri":"","name":"hhsmusicus","domain":"defaultdomain","features":{"scottyForTrogImageUpload":false,"pdfEmbedSupport":false,"docosCommenting":true,"useStandardEmbedsInSidebar":false,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"plusOneButtonOptions":true,"siteChromeSystemFooterDialog":true,"plusOneButton":true,"spreadsheetsEmbedLoadRedirect":true,"colorsAndFontsRefactor":false,"ieSevenUnsupportedError":false,"manageRedirects":false,"photoAlbumsInOnePick":true,"siteChromeInPlaceEditingProdLaunchPromo":true,"autoCompleteSearch":false,"goocitiesTheme":false,"editorKeyboardShortcuts":true,"experimental":{"displayEditorLockExceptions":false},"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"dataPropsForEmbeds":true,"autoAdjustSitemapSearchDepth":true,"userContentMetaTags":true,"htmlEmbed":true,"keyboardShortcuts":true,"zooConsumerMappingEnabled":false,"siteChromeHeaderDialog":true,"stBtiWebspaceTitleSearch":true,"pageRedirects":false,"siteChromeCustomFooterDialog":true},"adsensePublisherId":null,"gvizVersion":1,"siteTitle":"Homestead High School Music Program","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://www.google.com/sites/help/intl/en/terms.html","enableAnalytics":false,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isGoocities":false,"isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"enableAutoComplete":true,"isStartPageEnabled":false,"domainAnalyticsAccountId":""};
+
+
+
+webspace.gadgets = {"isGadgetDirectoryEnabled":true,"baseUri":"/system/app/pages/gadgets","isGgsRenderingEnabled":true};
+
+
+webspace.user = {"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:273cb3fca76824e2","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:56c6af82e04ff238","revision":0,"title":"Page not found","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"NoNodesFound","path":"/system/errors/NoNodesFound","openMoreActionMenu":null,"isSiteRtlLocale":false,"parentPath":"/system/errors"};
+webspace.page.breadcrumbs = [{"title":"[Untitled]","dir":"ltr","path":"/system","deleted":false},{"title":"[Untitled]","dir":"ltr","path":"/system/errors","deleted":false},{"title":"System_Error_Page_Not_Found","dir":"ltr","path":"/system/errors/NoNodesFound","deleted":false}];
+
+
+webspace.editorResources = {
+  text: [
+    'http://www.gstatic.com/sites/p/09d9ad/system/js/codemirror.js',
+    'http://www.gstatic.com/sites/p/09d9ad/system/app/css/codemirror_css.css',
+    'http://www.gstatic.com/sites/p/09d9ad/system/js/trog_edit__en.js',
+    'http://www.gstatic.com/sites/p/09d9ad/system/app/css/trogedit.css',
+    '/_/rsrc/1349106266000/system/app/css/editor.css',
+    'http://www.gstatic.com/sites/p/09d9ad/system/app/css/codeeditor.css',
+    '/_/rsrc/1349106266000/system/app/css/camelot/editor-jfk.css'
+  ],
+  sitelayout: [
+    'http://www.gstatic.com/sites/p/09d9ad/system/app/css/sitelayouteditor.css'
+  ]
+};
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/09d9ad/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta xmlns="http://www.google.com/ns/jotspot" name="robots" content="noindex, nofollow" />
+<meta name="title" content="Page not found - Homestead High School Music Program" />
+<meta itemprop="name" content="Page not found - Homestead High School Music Program" />
+<meta property="og:title" content="Page not found - Homestead High School Music Program" />
+<meta name="Description" content="The purpose of this site is to furnish information about the vibrant music program offerings at Homestead High School in Cupertino, CA." />
+<meta itemprop="description" content="The purpose of this site is to furnish information about the vibrant music program offerings at Homestead High School in Cupertino, CA." />
+<meta property="og:description" content="The purpose of this site is to furnish information about the vibrant music program offerings at Homestead High School in Cupertino, CA." />
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/09d9ad/system/app/themes/solitudeolive/standard-css-solitudeolive-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1349106266000/system/app/css/overlay.css?cb=solitudeolive150goog-ws-leftnone30themedefaultstandard" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1349106266000/system/app/css/symbolfont.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1349106266000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Page not found - Homestead High School Music Program</title>
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<script src="//www.gstatic.com/caja/4969m/caja.js"> </script>
+<script src="http://www.gstatic.com/sites/p/09d9ad/system/js/jot_caja.js"> </script>
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class=""><div class="sites-header-cell-buffer-wrapper"><h2><a href="http://sites.google.com/site/hhsmusicus/" dir="ltr" id="sites-chrome-userheader-title">Homestead High School Music Program</a></h2></div></td><td class="sites-layout-searchbox "><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="/system/app/pages/search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" /><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Search this site" autocomplete="off" /><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-search-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0">Search this site</div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container">
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left" style="width:150px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed"><div class="sites-embed-content sites-sidebar-nav"><ul jotId="navList"><li class="nav-first "><div dir="ltr" style="padding-left: 5px;"><a href="/home" jotId="wuid:gx:54660bb0c0d7f42f" class="sites-navigation-link">Home</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/about" jotId="wuid:gx:55a640df1d9757d9" class="sites-navigation-link">About</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/marching-band" jotId="wuid:gx:9a9be8e8e00a0ea" class="sites-navigation-link">Marching Band</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/color-guard" jotId="wuid:gx:777393b52594e760" class="sites-navigation-link">Color Guard</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/winter-percussion" jotId="wuid:gx:4c224d962fdd17fd" class="sites-navigation-link">Winter Percussion</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/winter-guard" jotId="wuid:gx:3058122b8f88c58a" class="sites-navigation-link">Winter Guard</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/instrumental-music" jotId="wuid:gx:1f1a9d20cc1954b6" class="sites-navigation-link">Instrumental Music</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/music-boosters" jotId="wuid:gx:6034fad458a6eb27" class="sites-navigation-link">Music Boosters</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/fundraising" jotId="wuid:gx:5ec6c91876203b25" class="sites-navigation-link">Fundraising</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/forms" jotId="wuid:gx:25f2bfcedaec1fb0" class="sites-navigation-link">Forms</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/resources" jotId="wuid:gx:4a512dc098ae731" class="sites-navigation-link">Resources</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/newsletters" jotId="wuid:gx:2b3a4911fe1fb879" class="sites-navigation-link">Newsletters</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:7b111c67b5f8c347" class="sites-navigation-link">Sitemap</a></div></li></ul></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="display: none;">
+<A dir="ltr" href="/system">[Untitled]</A>‎ &gt; ‎<A dir="ltr" href="/system/errors">[Untitled]</A>‎ &gt; ‎
+  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr">Page not found</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<table id="sites-content-table" class="sites-layout-hbox" cellspacing="0">
+<tbody>
+<tr>
+<td id="col0">
+<div class="sites-error-wrapper">
+<p>
+          We're sorry, but we were unable to locate the page you requested.
+        </p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div> 
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter"><p><a class="sites-system-link" href="https://www.google.com/a/UniversalLogin?service=jotspot&amp;continue=http://sites.google.com/site/hhsmusicus/posts.xml">Sign in</a>|<a class="sites-system-link" href="/system/app/pages/reportAbuse" target="_blank">Report Abuse</a>|<a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a>|<a class="sites-system-link" href="/system/app/pages/removeAccess" target="_blank">Remove Access</a>|<span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/09d9ad/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+  if (webspace.editorResources['text']) {
+    //<![CDATA[
+webspace.editorResources['text'].unshift('/system/app/css/overlay.css?cb=solitudeolive150goog-ws-leftnone30themedefaultstandard');
+webspace.editorResources['text'].unshift('/_/rsrc/1349106266000/system/app/themes/solitudeolive/standard-css-solitudeolive-ltr-ltr.css');
+//]]>
+
+  }
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-search-button',
+                        true,
+                        {"object":[]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/system/app/pages/admin/appearance/pageElements"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "Navigation", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type;
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+
+<script type="text/javascript">
+              sites.util.Plus.go('sites-chrome-main');
+            </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script>
+          window.jstiming.load.tick('render');
+        </script>
+</body>
+</html>

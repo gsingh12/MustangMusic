@@ -1,0 +1,48 @@
+<resources>
+
+    <string name="app_name">Mustang Music</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    
+    <string name="menu_home">Mustang Pride!</string>
+    <string name="menu_calendar">Calendar</string>
+    <string name="menu_blasts">Blasts</string>
+    <string name="menu_photos">Photos</string>
+    <string name="menu_social">Social</string>
+
+    <string name="title_activity_events">Events</string>
+
+    <string name="tabtitle_home">Home</string>
+    <string name="tabtitle_calendar">Calendar</string>
+    <string name="tabtitle_blasts">Blasts</string>
+    <string name="tabtitle_photos">Photos</string>
+    <string name="tabtitle_social">Social</string>
+    
+    <string name="footertext">Mustang Music - Homestead High School&lt;BR/&gt;21370 Homestead Road, Cupertino, CA 95014</string>
+
+    <string name="loading_message_1">Loading the App ...</string>
+    <string name="loading_message_2">Still loading App ...</string>
+    <string name="loading_message_3">Um...Go Mustang!</string>
+    <string name="loading_message_4">Believe me! It is going to be worth the wait...</string>
+    <string name="loading_message_5">OMG, this is taking longer than expected...</string>
+    <string name="loading_message_6">Now I’m not that sure!</string>
+    <string name="loading_message_7">We’re having a party ...</string>
+    <string name="loading_message_8">Go and get yourself some coffee while I am still loading?</string>
+    <string name="loading_message_9">What is with the internet today?!</string>
+    <string name="loading_message_10">I give up now. You may close the App and try again.</string>
+    
+    <string name="btn_lbl_call">Call</string>
+    <string name="btn_lbl_email">Email</string>
+    
+    <string name="splash_text1">Mobile App of the</string>
+    <string name="splash_text2">MUSTANG MUSIC</string>
+    <string name="splash_text3">HOMESTEAD HIGH SCHOOL</string>
+    
+    <string name="mm_tel">408-522-2541</string>
+    <!-- <string name="mm_tel">408-966-4100</string> -->
+    <string name="mm_email_recipient">john_burn@fuhsd.org</string>
+    <!-- <string name="mm_email_recipient">diveesh@gmail.com</string> -->
+    <string name="mm_email_subject">Want to know more ...</string>
+    <string name="mm_email_text">Hello,\n\nI am interested in more information about Mustang Music (Homestead High School), please send me more information to the email address above.\nThanks.</string>
+    
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/gradient"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/FooterWithTextSize" >
+    
+    <Button
+        android:id="@+id/btnCall"
+        android:text="@string/btn_lbl_call"
+        android:layout_width="50dip"
+        android:layout_height="30dip"
+        android:layout_toLeftOf="@+id/footertext"
+        android:layout_centerVertical="true"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginRight="5dip"
+        android:textColor="#ffffff"
+        android:background="#2c5115" />
+ 
+    <TextView 
+        android:id="@+id/footertext"
+        android:text="@string/footertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/footerTitleTextSize"
+        android:textColor="#ffffff"
+        android:padding="1.0dip"
+        />
+    
+    <Button
+        android:id="@+id/btnEmail"
+        android:text="@string/btn_lbl_email"
+        android:layout_width="50dip"
+        android:layout_height="30dip"
+        android:layout_toRightOf="@+id/footertext"
+        android:layout_centerVertical="true"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dip"
+        android:textColor="#ffffff"
+        android:background="#2c5115" />
+ 
+</RelativeLayout>

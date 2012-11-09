@@ -1,0 +1,39 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- <style name="AppTheme" parent="android:Theme.Light" /> -->
+    <!-- <style name="AppTheme" parent="@android:style/Theme.Black.NoTitleBar" /> -->
+    <style name="Theme.MustangMusic"  parent="android:Theme.Black">
+    </style>
+    
+    <style name="bgColor">
+        <item name="android:background">#ccf29b</item>
+    </style>
+    
+    <style name="listView" parent="@android:style/TextAppearance.Medium">
+        <item name="android:background">#ccf29b</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:cacheColorHint">#ccf29b</item>
+        <item name="android:divider">#000000</item>
+        <item name="android:dividerHeight">1.0dip</item>
+        <item name="android:fastScrollEnabled">true</item>
+    </style>
+    
+    <!-- To be tested, not in use right now -->
+   <style name="header_title_style">
+        <item name="android:windowTitleStyle">@style/title_bar</item>
+        <item name="android:windowTitleSize">35dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/title_background</item>
+    </style>
+    <style name="title_bar">
+        <item name="android:singleLine">false</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.WindowTitle</item>
+        <item name="android:shadowColor">#BB0000FF</item>
+        <item name="android:shadowRadius">2.75</item>
+    </style>
+    <style name="title_background">
+        <item name="android:background">#406627</item>
+        <!-- <item name="android:background">@drawable/background_square</item> -->
+    </style>
+   
+</resources>

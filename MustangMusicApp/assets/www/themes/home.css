@@ -1,0 +1,436 @@
+body, div, p, h1, h2, h3, h4, h5, ul, li {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.hide {
+  display: none;
+}
+.ui-content {
+  padding: 0;
+}
+.rootDiv{
+    height:380px;
+    overflow:hidden;
+}
+
+body {
+  text-shadow: none;
+  font-size: 15px;
+  font-family: Helvetica;
+  background: #ccf29b;
+  #background: #000000;
+  color: #000000;
+}
+.loadingIcon {
+  display: none;
+  width: 100%;
+  height: 100%
+}
+
+.loadingIconImg {
+  position: absolute;
+  background: url(images/icon-spinner-yellow.gif) center center no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.loadingIconbg {
+  position: absolute;
+  background: black;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.rootdiv {
+  height: 430px;
+  overflow: hidden;
+}
+
+.slideshow {
+  height: 190px;
+  overflow: hidden;
+}
+
+.feed {
+  height: 180px;
+  overflow: hidden;
+  background: #00143a;
+}
+
+.feedcontent {
+  height: 168px;
+}
+/*
+.gameinfo {
+  background-image: url("images/GSW_Score_Board_Background.jpg");
+  height: 60px;
+  repeat-x;
+}
+*/
+
+.gameinfobg{
+  position:absolute;
+  width:100%;
+  height:60px;
+  overflow:hidden;
+}
+
+.container{
+  display:table;
+  width:100%;
+  height:60px;
+}
+
+.row{
+  display:table-row;
+}
+
+.leftcell{
+  width:40%;
+  display:table-cell;
+}
+
+.leftcelltext{
+  position:absolute;
+  display:table-cell;
+  height:60px;
+  line-height:60px;
+  right:48px;
+  color:#FFF;
+  font-size:32px;
+}
+
+.leftcellimg{
+  position:absolute;
+  display:table-cell;
+  width:40px;
+  height:60px;
+  background-size: 40px 40px;
+  right:4px;
+}
+
+.cellimg{
+  height:40px;
+  margin:10px 0;
+}
+
+.middlecell{
+  display:table-cell;
+  width:20%;
+}
+
+.middlecellup{
+  position:absolute;
+  width:20%;
+  height:30px;
+  line-height:30px;
+  border-bottom:solid 1px #1430aa;
+  border-left:solid 1px #1430aa;
+  border-right:solid 1px #1430aa;
+  text-align:center;
+  color:#FFF;
+  font-size:12px;
+}
+
+.middlecelldown{
+  position:absolute;
+  width:20%;
+  height:30px;
+  line-height:30px;
+  top:30px;
+  text-align:center;
+  color:#FFF;
+  font-size:12px;
+  border-left:solid 1px #1430aa;
+  border-right:solid 1px #1430aa;
+}
+
+.rightcell{
+  width:40%;
+  display:table-cell;
+}
+
+.rightcelltext{
+  position:absolute;
+  display:table-cell;
+  height:60px;
+  line-height:60px;
+  left:48px;
+  color:#FFF;
+  font-size:32px;
+}
+
+.rightcellimg{
+  position:absolute;
+  display:table-cell;
+  width:40px;
+  height:60px;
+  background-size: 40px 40px;
+  left:4px;
+}
+
+.cellcontainers{
+  position:relative;
+}
+
+.carouselimagesize{
+  height:190px;
+  text-align: center;
+}
+
+
+
+.livescore {
+  overflow: hidden;
+}
+
+.score {
+  display: inline;
+  height: 60px;
+  line-height: 60px;
+  font-size: 36px;
+  color: white;
+}
+
+.score img {
+  vertical-align: middle;
+  height: 40px;
+  margin: 0 5px 0 5px;
+}
+
+.leftscore {
+  position: absolute;
+  width: 40%;
+  border-right: solid 1px #1430aa;
+}
+
+.leftscore div {
+  height: 60px;
+  line-height: 60px;
+  font-size: 40px;
+  color: white;
+  float: left;
+  margin: 0 0 0 5px;
+}
+
+.middle {
+  width: 15%;
+  height: 60px;
+  position: absolute;
+  left: 40%;
+  margin-left: 8px;
+  margin-right: 8px;
+  border: solid 1px #1430AA;
+}
+
+.rightscore {
+  float: right;
+  width: 40%;
+  border-left: solid 1px #1430aa;
+}
+
+.rightscore div {
+  height: 60px;
+  line-height: 60px;
+  font-size: 40px;
+  color: white;
+  float: right;
+  margin: 0 10px 0 0;
+}
+
+.scoretext {
+}
+
+.teamdiv {
+  padding-left: 10px;
+  height: 120px;
+  display: table;
+  width: 40%;
+  position: absolute;
+  border: solid 1px #1430AA;
+}
+
+.teamdiv div {
+  vertical-align: middle;
+  display: table-cell;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.nextgametime {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+}
+
+.nextgametime p {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.leftteam {
+}
+
+.rightteam {
+  left: 60%;
+  background: url(../../docs/medias/team-icons/small/DenverNuggets_130x130.png) no-repeat scroll center left;
+  background-size: 40px 40px;
+}
+
+.leftteam div {
+  height: 60px;
+  line-height: 60px;
+  padding: 0 58px 0 0;
+  text-align: right;
+}
+
+.rightteam div {
+  height: 60px;
+  line-height: 60px;
+  padding: 0 0 0 58px;
+  text-align: left;
+}
+
+.slidershowtext {
+  position: absolute;
+  width: 85%;
+  margin: 0 5% 0 5%;
+  font-weight: bolder;
+  padding: 5px 10px 5px 10px;
+  color: white;
+  background-color: black;
+  opacity: 0.7;
+  border-bottom: 1px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  border-top: 1px;
+  border-top-color: white;
+  border-top-style: solid;
+}
+
+.slidershowtexttop {
+  bottom: 200px;
+}
+
+.slidershowtextbottom {
+  bottom: 20px;
+}
+
+.slidershowtexttransition {
+  -webkit-transition-duration: .5s;
+  -webkit-transform-style: preserve-3d;
+}
+
+.slidershowctr {
+  background: url(images/bg_control.png) no-repeat scroll center center;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  height: 16px;
+}
+
+.item {
+  padding: 5px 8px 5px 32px;
+  line-height: 20px;
+  font-size: 12px;
+  position: relative;
+  background: #00143a;
+  color: #a2bef7;
+  border-top: 1px solid #103b3e;
+}
+
+.item a {
+  color: #ab8b09;
+  font-weight:bold;
+}
+
+.item.twitter {
+  background: #00143a url("images/feed-source-twitter.png") no-repeat 8px 6px;
+}
+
+.item.facebook {
+  background: #00143a url("images/feed-source-facebook.png") no-repeat 8px 6px;
+}
+
+.item.tibbr {
+  background: #00143a url("images/feed-source-tibbr.png") no-repeat 8px 6px;
+}
+
+.item .author {
+  color: #c1d72e;
+  font-weight: bold;
+}
+
+.item .time {
+  color: #6b95e9;
+  font-size: 9px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.feedheader {
+  height: 12px;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 12px;
+  background: #039;
+  color: white;
+  padding: 0 0 0 5px;
+}
+
+.scroll-puller {
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #a2bef7;
+  font-weight: bold;
+  position: relative;
+}
+.scroll-puller .indicator {
+  background-image: url('images/arrow.png');
+  background-size: 100% 100%;
+  width: 11px;
+  height: 18px;
+  top: 9px;
+  left: 80px;
+  position: absolute;
+  -webkit-transform: rotate(0);
+  -webkit-transition: -webkit-transform 0.1s linear;
+}
+.scroll-puller.loading .indicator {
+  background-image: url('images/spinner_blue.gif');
+  width: 16px;
+  height: 16px;
+  top: 10px;
+  left: 78px;
+}
+.scroll-puller.flip .indicator {
+  -webkit-transform: rotate(180deg);
+}
+.scroll-puller.scroll-pulldown .indicator {
+  -webkit-transform: rotate(180deg);
+}
+.scroll-puller.scroll-pulldown.flip .indicator {
+  -webkit-transform: rotate(0);
+}
+
+#eventdetails{
+	padding: 10px;
+	background: none repeat scroll 0 0 #F0F0F7;
+	height: 100px;
+	vertical-align: top;
+	border-radius: 0px 0px 5px 5px;
+}
+

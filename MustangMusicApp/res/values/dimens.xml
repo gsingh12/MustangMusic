@@ -1,0 +1,12 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="HeaderSize">45.0dip</dimen>
+    <dimen name="FooterSize">0.0dip</dimen>
+    <dimen name="FooterWithTextSize">45.0dip</dimen>
+    <dimen name="headerTitleTextSize">16.0sp</dimen>
+    <dimen name="footerTitleTextSize">9.0sp</dimen>
+    
+</resources>
