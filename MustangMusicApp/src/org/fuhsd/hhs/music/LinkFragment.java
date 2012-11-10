@@ -65,10 +65,10 @@ public class LinkFragment extends SherlockFragment {
             lastRefreshTime = savedInstanceState.getLong("lastRefreshTime");
         }
         if (lastRefreshTime == 0) {
-            Log.d(LOG_MODULE, "*** lastRefreshTims is found 0");
+            Log.d(LOG_MODULE, "lastRefreshTims is found 0");
             lastRefreshTime = System.currentTimeMillis();
         }
-        Log.d(LOG_MODULE, "*** lastRefreshTime: " + lastRefreshTime);
+        Log.d(LOG_MODULE, "lastRefreshTime: " + lastRefreshTime);
         
         String linkUrl = getArguments().getString(Constants.KEY_LINK_URL);
         if (linkUrl != null) {
@@ -88,11 +88,11 @@ public class LinkFragment extends SherlockFragment {
     }
 
     public void refresh() {
-        Log.i(LOG_MODULE, "*** LinkFragment Refresh request came in");
+        Log.d(LOG_MODULE, "LinkFragment Refresh request came in");
         long currTime = System.currentTimeMillis();
         if (currTime > (lastRefreshTime + Constants.LINK_EXPIRY_MILLIS)) {
             // webView.loadUrl(webView.getUrl());
-            Log.d(LOG_MODULE, "*** RELOADING");
+            Log.i(LOG_MODULE, "LinkFragment RELOADING");
             webView.reload();
             lastRefreshTime = currTime;
         }
@@ -115,7 +115,7 @@ public class LinkFragment extends SherlockFragment {
         webView.getSettings().setDomStorageEnabled(true);
         webView.getSettings().setAppCacheEnabled(true);
         webView.getSettings().setCacheMode(WebSettings.LOAD_DEFAULT);
-        webView.getSettings().setLightTouchEnabled(false);
+        // webView.getSettings().setLightTouchEnabled(false);
         webView.getSettings().setSupportZoom(true);
         webView.getSettings().setBuiltInZoomControls(true);
         webView.getSettings().setUseWideViewPort(true);     // This help load a bigger page so person can scroll down.

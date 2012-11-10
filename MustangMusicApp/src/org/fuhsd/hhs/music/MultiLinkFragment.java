@@ -120,11 +120,11 @@ public class MultiLinkFragment extends SherlockFragment {
     }
 
     public void refresh() {
-        Log.i(LOG_MODULE, "*** MultiLinkFragment Refresh request came in");
+        Log.d(LOG_MODULE, "MultiLinkFragment Refresh request came in");
         long currTime = System.currentTimeMillis();
         if (currTime > (lastRefreshTime + Constants.LINK_EXPIRY_MILLIS)) {
             // webView.loadUrl(webView.getUrl());
-            Log.d(LOG_MODULE, "*** MultiLinkFragment RELOADING");
+            Log.i(LOG_MODULE, "MultiLinkFragment RELOADING");
             webView2.reload();
             lastRefreshTime = currTime;
         }
@@ -200,7 +200,7 @@ public class MultiLinkFragment extends SherlockFragment {
         webView2.getSettings().setDomStorageEnabled(true);
         webView2.getSettings().setAppCacheEnabled(true);
         webView2.getSettings().setCacheMode(WebSettings.LOAD_DEFAULT);
-        webView2.getSettings().setLightTouchEnabled(false);
+        // webView2.getSettings().setLightTouchEnabled(false);
         webView2.getSettings().setSupportZoom(false);
         webView2.getSettings().setUseWideViewPort(true);
         // webView2.getSettings().setLoadWithOverviewMode(true);

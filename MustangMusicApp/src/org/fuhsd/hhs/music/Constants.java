@@ -41,6 +41,6 @@ public interface Constants {
     public static final String URL_SOCIAL       = "file:///android_asset/www/zRSSFeedMobile.htm";
     
     // ******* Misc *****
-    public static final long LINK_EXPIRY_MILLIS =  5*60*1000; 
+    public static final long LINK_EXPIRY_MILLIS =  10*60*1000; 
 
 }

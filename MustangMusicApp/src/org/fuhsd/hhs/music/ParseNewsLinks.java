@@ -97,7 +97,7 @@ public class ParseNewsLinks implements Parser {
                 inHomePage = true;
                 return;
             }
-            if (inHomePage && !inNews && currData.equals("NEWS")) {
+            if (inHomePage && !inNews && currData.equals("Latest News")) {
                 //Log.d(LOG_MODULE, "in NEWS now");
                 inNews = true;
                 return;
