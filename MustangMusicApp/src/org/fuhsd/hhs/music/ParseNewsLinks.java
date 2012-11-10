@@ -67,7 +67,7 @@ public class ParseNewsLinks implements Parser {
         private boolean inItemTag = false, inTitleTag = false, inLinkTag = false, inDateTag = false;
         private String currTitle, currLink, currDate = null;
 
-        private boolean inNews = false, inNewsList = false, done = false;
+        private boolean inHomePage = false, inNews = false, inNewsList = false, done = false;
         
         public void startDocument() throws SAXException {
             itemList = new LinkedList();  // Create a Linked List
@@ -76,12 +76,12 @@ public class ParseNewsLinks implements Parser {
 
         public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
             if (done) return;
-            if (inNews && !inNewsList && localName.equals("ul")) {
+            if (inHomePage && inNews && !inNewsList && localName.equals("ul")) {
                 //Log.d(LOG_MODULE, "start ul");
                 inNewsList = true;
                 return;
             }
-            if (inNews && inNewsList && !inItemTag && localName.equals("a")) {
+            if (inHomePage && inNews && inNewsList && !inItemTag && localName.equals("a")) {
                 //Log.d(LOG_MODULE, "start a");
                 currLink = attributes.getValue("href");
                 //Log.d(LOG_MODULE, "currLink="+currLink);
@@ -92,12 +92,17 @@ public class ParseNewsLinks implements Parser {
 
         public void characters(char[] ch, int start, int length) throws SAXException {
             String currData = new String(ch, start, length);
-            if (!inNews && currData.equals("NEWS")) {
+            if (!inHomePage && currData.equals("Home")) {
+                //Log.d(LOG_MODULE, "in Home now");
+                inHomePage = true;
+                return;
+            }
+            if (inHomePage && !inNews && currData.equals("NEWS")) {
                 //Log.d(LOG_MODULE, "in NEWS now");
                 inNews = true;
                 return;
             }
-            if (inNews && inNewsList && inItemTag) {
+            if (inHomePage && inNews && inNewsList && inItemTag) {
                 currTitle = currData;
                 //Log.d(LOG_MODULE, "currTitle="+currTitle);
                 return;
@@ -107,21 +112,24 @@ public class ParseNewsLinks implements Parser {
         public void endElement(String uri, String localName, String qName) throws SAXException {
             if (done) return;
             
-            if (inNews && inNewsList && inItemTag && localName.equals("a")) {
+            if (inHomePage && inNews && inNewsList && inItemTag && localName.equals("a")) {
                 //Log.d(LOG_MODULE, "end ul");
+                /*
                 if (!itemTitleSet.contains(currTitle)) {
-                    Item newItem = new Item(currTitle, currLink, currDate);
-                    //Log.i("hhsmusic", "Created new Item: " + newItem);
-                    itemTitleSet.add(currTitle);
-                    itemList.add(newItem);
                 }
+                */
+                Item newItem = new Item(currTitle, currLink, currDate);
+                // Log.i(LOG_MODULE, "Created new Item: " + newItem);
+                itemTitleSet.add(currTitle);
+                itemList.add(newItem);
                 inItemTag = false;
                 return;
             }
-            if (inNews && inNewsList && !inItemTag && localName.equals("ul")) {
+            if (inHomePage && inNews && inNewsList && !inItemTag && localName.equals("ul")) {
                 //Log.d(LOG_MODULE, "end ul");
                 inNewsList = false;
                 inNews = false; // End News here too
+                inHomePage = false;
                 done = true;  // That is it.
                 return;
             }

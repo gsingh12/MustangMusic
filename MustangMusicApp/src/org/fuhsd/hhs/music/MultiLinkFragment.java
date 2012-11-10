@@ -36,9 +36,10 @@ public class MultiLinkFragment extends SherlockFragment {
     // Log Module
     private final String LOG_MODULE = "MultiLinkFragment";
     
-    public WebView webView1;
-    public WebView webView2;
-
+    protected WebView webView1;
+    protected WebView webView2;
+    protected long lastRefreshTime = 0;
+    
     /**
      * Instance of this Fragment is created by the main activity.
      */
@@ -67,6 +68,14 @@ public class MultiLinkFragment extends SherlockFragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        
+        if (savedInstanceState != null) {
+            lastRefreshTime = savedInstanceState.getLong("lastRefreshTime");
+        }
+        if (lastRefreshTime == 0) {
+            lastRefreshTime = System.currentTimeMillis();
+        }
+
         String[] linkUrls = getArguments().getStringArray(Constants.KEY_LINK_URL);
         if (linkUrls != null) {
             loadUrl(getView(), linkUrls);
@@ -99,6 +108,28 @@ public class MultiLinkFragment extends SherlockFragment {
 
     }
     
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        outState.putLong("lastRefreshTime", lastRefreshTime);
+        super.onSaveInstanceState(outState);
+    }
+    
+    public void onResume() {
+        super.onResume();
+        refresh();
+    }
+
+    public void refresh() {
+        Log.i(LOG_MODULE, "*** MultiLinkFragment Refresh request came in");
+        long currTime = System.currentTimeMillis();
+        if (currTime > (lastRefreshTime + Constants.LINK_EXPIRY_MILLIS)) {
+            // webView.loadUrl(webView.getUrl());
+            Log.d(LOG_MODULE, "*** MultiLinkFragment RELOADING");
+            webView2.reload();
+            lastRefreshTime = currTime;
+        }
+    }
+    
     public void loadUrl(String[] urls) {
         loadUrl(getView(), urls);
     }
@@ -124,6 +155,7 @@ public class MultiLinkFragment extends SherlockFragment {
         webView1.addJavascriptInterface(this, "Android");
         webView1.getSettings().setDomStorageEnabled(true);
         webView1.getSettings().setAppCacheEnabled(true);
+        webView1.getSettings().setSupportZoom(false);
         webView1.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
         webView1.setWebChromeClient(new WebChromeClient() {
             @Override
@@ -138,10 +170,10 @@ public class MultiLinkFragment extends SherlockFragment {
             public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
                 handler.proceed();
             }
+            */
             @Override
             public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
             }
-            */
             public void onPageFinished(WebView view, String url) {
                 // do your stuff here
                 Log.d(LOG_MODULE, "onPageFinished");
@@ -155,8 +187,8 @@ public class MultiLinkFragment extends SherlockFragment {
 
         //  Load second url into second web view
         
+        webView2.clearCache(true);
         /* Not reqd
-        webView2.clearCache(true); // TODO: ??
         webView2.clearHistory();   // TODO: ??
         */
         webView2.getSettings().setJavaScriptEnabled(true);
@@ -167,7 +199,12 @@ public class MultiLinkFragment extends SherlockFragment {
 
         webView2.getSettings().setDomStorageEnabled(true);
         webView2.getSettings().setAppCacheEnabled(true);
-        webView2.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
+        webView2.getSettings().setCacheMode(WebSettings.LOAD_DEFAULT);
+        webView2.getSettings().setLightTouchEnabled(false);
+        webView2.getSettings().setSupportZoom(false);
+        webView2.getSettings().setUseWideViewPort(true);
+        // webView2.getSettings().setLoadWithOverviewMode(true);
+        webView2.getSettings().setPluginsEnabled(true);
 
         webView2.setWebChromeClient(new WebChromeClient(){
             @Override
@@ -188,13 +225,16 @@ public class MultiLinkFragment extends SherlockFragment {
             public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
                 handler.proceed();
             }
+            /*
             @Override
             public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
             }
+            */
         });
 
         if (urls.length > 1) {
             webView2.loadUrl(urls[1]);
+            lastRefreshTime = System.currentTimeMillis();
         }
     }
 

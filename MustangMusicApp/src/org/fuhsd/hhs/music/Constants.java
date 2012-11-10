@@ -39,5 +39,8 @@ public interface Constants {
     // public static String hhsMusicPhotosUr       = "http://gsingh12.smugmug.com/travel";
     
     public static final String URL_SOCIAL       = "file:///android_asset/www/zRSSFeedMobile.htm";
+    
+    // ******* Misc *****
+    public static final long LINK_EXPIRY_MILLIS =  5*60*1000; 
 
 }

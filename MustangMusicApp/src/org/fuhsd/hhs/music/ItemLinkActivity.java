@@ -13,6 +13,8 @@ import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.webkit.JsResult;
+import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebSettings.RenderPriority;
@@ -28,7 +30,7 @@ import android.net.http.SslError;
  */
 public class ItemLinkActivity extends SherlockActivity {
     private static final String LOG_MODULE = "ItemLinkActivity";
-    private String url = null;
+    private String mUrl = null;
     private RelativeLayout loadingContainer = null;
     private ShareActionProvider shareActionProvider;
     private boolean isShare = false;
@@ -42,20 +44,21 @@ public class ItemLinkActivity extends SherlockActivity {
         loadingContainer = (RelativeLayout) findViewById(R.id.loadingContainer);
 
         webView = ((WebView)findViewById(R.id.webview));
-        /* Not reqd
         webView.clearCache(true); // TODO: ??
+        /* Not reqd
         webView.clearHistory();   // TODO: ??
         */
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setRenderPriority(RenderPriority.HIGH);
-        webView.getSettings().setCacheMode(WebSettings.LOAD_DEFAULT);  // Not LOAD_CACHE_ELSE_NETWORK
+        webView.getSettings().setCacheMode(WebSettings.LOAD_DEFAULT);
+        // webView.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
         webView.getSettings().setAppCacheEnabled(true);
         webView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);  
         webView.getSettings().setLightTouchEnabled(false);
         webView.getSettings().setSupportZoom(true);
         webView.getSettings().setBuiltInZoomControls(true);
-        webView.getSettings().setLoadWithOverviewMode(true);
         webView.getSettings().setUseWideViewPort(true);
+        webView.getSettings().setLoadWithOverviewMode(true);    // This helps load the whole page zoomed out.
         webView.getSettings().setPluginsEnabled(true);
         
         /* Not reqd
@@ -63,19 +66,42 @@ public class ItemLinkActivity extends SherlockActivity {
         webView.getSettings().setDomStorageEnabled(true);
         */
 
+        webView.setWebChromeClient(new WebChromeClient(){
+            @Override
+            public boolean onJsAlert(WebView view, String url, String message, JsResult result) {
+                return super.onJsAlert(view, url, message, result);
+            }
+        });
         webView.setWebViewClient(new WebViewClient() {
             /* Open all links inside this activity, except for Videos */
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                if (url.endsWith(".mp4")){
+                if (url.endsWith(".mp4")) {
+                    Log.i(LOG_MODULE, "webview mp4 url = " + url);
                     Intent in = new Intent (Intent.ACTION_VIEW , Uri.parse(url));
                     startActivity(in);
                     return true;
                 } else {
-                    Log.i(LOG_MODULE, "url | " + url);
+                    /**/
+                    // Display links in same web view.
+                    url = modUrl(url);
+                    Log.i(LOG_MODULE, "webview url = " + url);
                     setUrl(url);
                     view.loadUrl(url);
                     return true;
+                    /**/
+
+                    /*
+                    // Display links in separate activity
+                    // (TODO: This is good but in blasts, jumps pages when clicked on dropdown links; and for each redirection)
+                    Log.i(LOG_MODULE, "webview url = " + url);
+                    Intent intent = new Intent(view.getContext(), ItemLinkActivity.class);
+                    Bundle bundle = new Bundle();
+                    bundle.putString(Constants.KEY_ITEM_LINK_URL, url);
+                    intent.putExtras(bundle);
+                    ItemLinkActivity.this.startActivity(intent);
+                    return true;
+                    */
                 }
             }
 
@@ -90,10 +116,13 @@ public class ItemLinkActivity extends SherlockActivity {
             public void onPageFinished(WebView view, String url) {
                 super.onPageFinished(view, url);
                 loadingContainer.setVisibility(View.GONE);
+                
+                // ??
                 if(isShare) {
                     setShareIntent();
                 }
                 
+                // ??
                 setUrl(webView.getUrl());
                 Log.i(LOG_MODULE, "onPageFinished url: " + url);
             }
@@ -103,15 +132,19 @@ public class ItemLinkActivity extends SherlockActivity {
             public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
                 handler.proceed();
             }
+            /*
             @Override
             public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
             }
+            */
         });
 
         if(getIntent().getExtras() != null) {
-            url = getIntent().getExtras().getString(Constants.KEY_ITEM_LINK_URL);
-            if(url != null){
-                webView.loadUrl(url);
+            mUrl = getIntent().getExtras().getString(Constants.KEY_ITEM_LINK_URL);
+            if(mUrl != null){
+                mUrl = modUrl(mUrl);
+                Log.i(LOG_MODULE, "link url = " + mUrl);
+                webView.loadUrl(mUrl);
             }
 
             if(getIntent().hasExtra("share")) {
@@ -129,15 +162,31 @@ public class ItemLinkActivity extends SherlockActivity {
         actionBar.setDisplayHomeAsUpEnabled(true);
     }
     
+    /**
+     * Note: Display pdf, word doc, xls, ppt in google doc viewer.
+     */
+    protected String modUrl(String url) {
+        if (url == null)
+            return url;
+        if (url.endsWith(".pdf") ||
+            url.endsWith(".doc") || url.endsWith(".docx") ||
+            url.endsWith(".xls") || url.endsWith(".xlsx") ||
+            url.endsWith(".ppt") || url.endsWith(".pptx")) {
+            return "https://docs.google.com/viewer?embedded=true&url=" + url;
+        } else {
+            return url;
+        }
+    }
+    
     private void setUrl(String url) {
-        this.url = url;
+        this.mUrl = url;
     }
 
     private void setShareIntent() {
-        if(url != null) {
+        if(mUrl != null) {
             Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
             sharingIntent.setType("text/plain");
-            sharingIntent.putExtra(Intent.EXTRA_TEXT, url);
+            sharingIntent.putExtra(Intent.EXTRA_TEXT, mUrl);
 
             if(shareActionProvider != null) {
                 shareActionProvider.setShareIntent(sharingIntent);

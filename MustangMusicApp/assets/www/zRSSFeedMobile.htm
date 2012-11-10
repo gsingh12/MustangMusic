@@ -27,15 +27,14 @@
 
     <script type="text/javascript">
     $(document).ready(function () {
-        $('#test').rssfeed('http://www.facebook.com/feeds/page.php?id=135966453126258&format=rss20'
+        $('#myfeed').rssfeed('http://www.facebook.com/feeds/page.php?id=135966453126258&format=rss20'
         		/*'http://www.facebook.com/feeds/page.php?id=241622395963185&format=rss20'*/
         		/*'http://www.facebook.com/feeds/page.php?format=rss20&id=47657117525'*/
-                /*'https://api.twitter.com/1/statuses/user_timeline/warriors.rss'*/
                 /*'https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=thenextweb'*/,{
             limit: 20,
             snippet: false,
             header: false,
-            historical: false
+            historical: true
         });
     });
     /*
@@ -63,7 +62,7 @@
     </div>
     
     <div data-role="content">   
-        <div id="test"></div>
+        <div id="myfeed"></div>
     </div>
     
     <div data-role="footer">

@@ -72,6 +72,8 @@ public class MainActivity extends SherlockFragmentActivity {
     // View Pager
     private MyFragmentAdapter fragmentAdapter;
     private MyViewPager viewPager;
+    
+    private Boolean creating = false;
 
     /**
      * Called when the activity is first created.
@@ -79,6 +81,9 @@ public class MainActivity extends SherlockFragmentActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        synchronized(creating) {
+            creating = true;
+        }
         try {
             requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);  // This displays spinner or action bar.
             setContentView(R.layout.main);
@@ -138,23 +143,23 @@ public class MainActivity extends SherlockFragmentActivity {
             actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
             // TBR: mActionBar.setDisplayShowTitleEnabled(false);
             
-            Tab tab = actionBar.newTab()/*.setText("ONE")*/.setTabListener(new MyTabListener(this, Constants.ACT_HOME + "", viewPager));
+            Tab tab = actionBar.newTab()/*.setText("ONE")*/.setTabListener(new MyTabListener(fragmentAdapter, Constants.ACT_HOME + "", viewPager));
             tab.setCustomView(R.layout.tab_home);
             actionBar.addTab(tab);
             
-            tab = actionBar.newTab().setTabListener(new MyTabListener(this, Constants.ACT_CALENDAR + "", viewPager));
+            tab = actionBar.newTab().setTabListener(new MyTabListener(fragmentAdapter, Constants.ACT_CALENDAR + "", viewPager));
             tab.setCustomView(R.layout.tab_calendar);
             actionBar.addTab(tab);
             
-            tab = actionBar.newTab().setTabListener(new MyTabListener(this, Constants.ACT_BLASTS + "", viewPager));
+            tab = actionBar.newTab().setTabListener(new MyTabListener(fragmentAdapter, Constants.ACT_BLASTS + "", viewPager));
             tab.setCustomView(R.layout.tab_blasts);
             actionBar.addTab(tab);
             
-            tab = actionBar.newTab().setTabListener(new MyTabListener(this, Constants.ACT_PHOTOS + "", viewPager));
+            tab = actionBar.newTab().setTabListener(new MyTabListener(fragmentAdapter, Constants.ACT_PHOTOS + "", viewPager));
             tab.setCustomView(R.layout.tab_photos);
             actionBar.addTab(tab);
             
-            tab = actionBar.newTab().setTabListener(new MyTabListener(this, Constants.ACT_SOCIAL + "", viewPager));
+            tab = actionBar.newTab().setTabListener(new MyTabListener(fragmentAdapter, Constants.ACT_SOCIAL + "", viewPager));
             tab.setCustomView(R.layout.tab_social);
             actionBar.addTab(tab);
 
@@ -164,6 +169,10 @@ public class MainActivity extends SherlockFragmentActivity {
             titleBar.setBackgroundColor(Color.RED);
             */
             
+            synchronized(creating) {
+                creating = false;
+            }
+
         } catch (Exception e) {
             Log.e("ViewPager", e.toString());
         }
@@ -189,6 +198,9 @@ public class MainActivity extends SherlockFragmentActivity {
         }
         */
         super.onDestroy();
+
+        Log.d(LOG_MODULE, "*** onDestroy");
+        // tToast("onDestroy.");
     }
 
     /**
@@ -196,12 +208,14 @@ public class MainActivity extends SherlockFragmentActivity {
      */
     public class MyTabListener implements ActionBar.TabListener {
         private Fragment mFragment;
-        private final Activity mActivity;
+        // private final Activity mActivity;
+        private FragmentPagerAdapter mFragmentAdapter;
         private final String mTag;
         private ViewPager mPager;
 
-        public MyTabListener(Activity activity, String tag, ViewPager pager) {
-            mActivity = activity;
+        public MyTabListener(FragmentPagerAdapter fragmentAdapter, String tag, ViewPager pager) {
+            // mActivity = activity;
+            mFragmentAdapter = fragmentAdapter;
             mTag = tag;
             mPager = pager;
         }
@@ -222,6 +236,20 @@ public class MainActivity extends SherlockFragmentActivity {
             int tag = Integer.parseInt(mTag);
             mPager.setCurrentItem(tag);
             isHomeTab = (tag == Constants.ACT_HOME);
+            
+            switch (tag) {
+            case Constants.ACT_HOME:
+                synchronized(creating) {
+                    if (!creating) {
+                        ((MultiLinkFragment)mFragmentAdapter.getItem(tag)).refresh();
+                    }
+                }
+                break;
+            case Constants.ACT_CALENDAR:
+            case Constants.ACT_SOCIAL:
+                ((LinkFragment)mFragmentAdapter.getItem(tag)).refresh();
+                break;
+            }
         }
 
         public void onTabUnselected(Tab tab, FragmentTransaction ft) {
@@ -407,5 +435,32 @@ public class MainActivity extends SherlockFragmentActivity {
             }
         }
     }
+    
+    /* TBR
+    public void onStart() {
+        super.onStart();
+        Log.d(LOG_MODULE, "*** onStart");
+    }
 
+    public void onRestart() {
+        super.onRestart();
+        Log.d(LOG_MODULE, "*** onRestart");
+    }
+
+    public void onResume() {
+        super.onResume();
+        Log.d(LOG_MODULE, "*** onResume");
+    }
+
+    public void onPause() {
+        super.onPause();
+        Log.d(LOG_MODULE, "*** onPause");
+    }
+
+    public void onStop() {
+        super.onStop();
+        Log.d(LOG_MODULE, "*** onStop");
+    }
+    */
+    
 }
