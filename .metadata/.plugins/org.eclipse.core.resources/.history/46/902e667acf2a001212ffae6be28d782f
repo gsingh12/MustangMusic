@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>New own RSS reader demonstration</title>
+    <!-- 
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script type="text/javascript" src="js/main.js"></script>
+     -->
+    <link rel="stylesheet" type="text/css" href="new.css" />
+    <script type="text/javascript" src="new.js"></script>
+</head>
+ <body>
+    <div class="example">
+        <div class="post_results" id="post_results1" rss_num="8" rss_url="http://www.facebook.com/feeds/page.php?id=241622395963185&format=rss20">
+            <div class="loading_rss">
+                <img alt="Loading..." src="images/loading.gif" />
+            </div>
+        </div>
+
+        <!-- 
+        <div class="post_results" id="post_results1" rss_num="8" rss_url="http://rss.news.yahoo.com/rss/topstories">
+            <div class="loading_rss">
+                <img alt="Loading..." src="images/loading.gif" />
+            </div>
+        </div>
+         -->
+        <div class="post_results" id="post_results2" rss_num="8" rss_url="http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml">
+            <div class="loading_rss">
+                <img alt="Loading..." src="images/loading.gif" />
+            </div>
+        </div>
+
+        <div style="clear:both;"></div>
+    </div>
+ </body>
+</html>
